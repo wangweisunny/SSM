@@ -1,6 +1,21 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 13221
+  Date: 2021/9/25
+  Time: 18:47
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>首页</title>
+    <%--引入jQuery--%>
+    <script type="text/javascript" src="static/js/jquery-1.7.2.js"></script>
+    <%--引入样式--%>
+    <link href="static/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+</head>
 <body>
-<h2>Hello World!</h2>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <button class="btn btn-success">按钮</button>
 </body>
 </html>
