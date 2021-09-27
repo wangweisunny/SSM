@@ -6,114 +6,54 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29f670dc-09f5-40c9-83ff-dd2846eeab24" name="Default Changelist" comment="one commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/13221.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/DepartmentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/EmployeeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/dao/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/dao/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index-0.0.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/MBG/MBGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/Mapper/MapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/Page/PageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/META-INF/SSM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/java/GitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/dbconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SSM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/dao/DepartmentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/dao/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/java/GitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/MBG/MBGTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/Mapper/MapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/Page/PageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="29f670dc-09f5-40c9-83ff-dd2846eeab24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/DepartmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/DepartmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/DepartmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/bean/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/dao/DepartmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/crud/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jackson-core-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jackson-databind-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mybatis-generator-core-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/index-0.0.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SSM/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSM/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +144,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static" />
-      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static\js" />
-      <recent name="D:\Maven\ClassLearn\SSM" />
-      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\WEB-INF\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static\js" />
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static" />
+      <recent name="D:\Maven\ClassLearn\SSM" />
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\WEB-INF\static" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.SSM">
@@ -522,7 +462,7 @@
       <workItem from="1632653366879" duration="4351000" />
       <workItem from="1632725166300" duration="4179000" />
       <workItem from="1632734032492" duration="8181000" />
-      <workItem from="1632742311615" duration="1716000" />
+      <workItem from="1632742311615" duration="2294000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1632396686253</created>
@@ -601,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632743343227</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="one commit">
+      <created>1632744071719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632744071719</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,10 +593,10 @@
       <screen x="0" y="0" width="1549" height="840" />
     </state>
     <state x="967" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1549.840@0.0.1549.840" timestamp="1632737437243" />
-    <state x="236" y="0" key="CommitChangelistDialog2" timestamp="1632743341923">
+    <state x="236" y="0" key="CommitChangelistDialog2" timestamp="1632744070406">
       <screen x="0" y="0" width="1549" height="840" />
     </state>
-    <state x="236" y="0" key="CommitChangelistDialog2/0.0.1549.840@0.0.1549.840" timestamp="1632743341923" />
+    <state x="236" y="0" key="CommitChangelistDialog2/0.0.1549.840@0.0.1549.840" timestamp="1632744070406" />
     <state x="839" y="179" key="FileChooserDialogImpl" timestamp="1632742504665">
       <screen x="0" y="0" width="1549" height="840" />
     </state>
@@ -726,10 +673,10 @@
       <screen x="0" y="0" width="1549" height="840" />
     </state>
     <state x="497" y="162" width="567" height="524" key="StructurePopup/0.0.1549.840@0.0.1549.840" timestamp="1632729116956" />
-    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2" timestamp="1632743420042">
+    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2" timestamp="1632744094764">
       <screen x="0" y="0" width="1549" height="840" />
     </state>
-    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2/0.0.1549.840@0.0.1549.840" timestamp="1632743420042" />
+    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2/0.0.1549.840@0.0.1549.840" timestamp="1632744094764" />
     <state x="551" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1632638175287">
       <screen x="0" y="0" width="1549" height="840" />
     </state>

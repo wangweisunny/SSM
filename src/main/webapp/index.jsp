@@ -78,7 +78,7 @@
             data:"pn=1",
             type:"GET",
             success:function (result) {
-                console.log(result)
+
             }
         });
     });
