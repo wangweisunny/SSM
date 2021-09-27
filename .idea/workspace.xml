@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSM:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29f670dc-09f5-40c9-83ff-dd2846eeab24" name="Default Changelist" comment="one commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/13221.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mbg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/DepartmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/EmployeeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/bean/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/dao/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangwei/crud/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index-0.0.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/MBG/MBGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/Mapper/MapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wangwei/Page/PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/META-INF/SSM.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/com/wangwei/java/GitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/classes/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSM/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SSM.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/DepartmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/dao/DepartmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/crud/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wangwei/java/GitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/MBG/MBGTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/Mapper/MapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wangwei/Page/PageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.4.1-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6ec1b030a40c7cc25da0c59d410f8ad42c67c541" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GiteeDefaultAccount">
+    <option name="defaultAccountId" value="87fda161-4b31-4855-bcdd-27ee391fcc61" />
+  </component>
+  <component name="GiteePullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://gitee.com/wangweisunny/ssm.git" />
+      </set>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/wangweisunny/SSM.git" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven_Work/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Maven_Work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1yTcbWVFGFGXexr5KBrVylMcJNo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static" />
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\static\js" />
+      <recent name="D:\Maven\ClassLearn\SSM" />
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp\WEB-INF\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Maven\ClassLearn\SSM\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.SSM">
+    <configuration name="SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSM" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_50_SSM" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSM:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SSM/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSM" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SSM" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm-crud:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53793" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crud" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssm_crud/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssm-crud:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_crud" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_50_SSM_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm-crud:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.crud" />
+      <item itemvalue="Tomcat Server.SSM" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29f670dc-09f5-40c9-83ff-dd2846eeab24" name="Default Changelist" comment="" />
+      <created>1632279089115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632279089115</updated>
+      <workItem from="1632279090504" duration="772000" />
+      <workItem from="1632396083600" duration="2362000" />
+      <workItem from="1632443573302" duration="3023000" />
+      <workItem from="1632448583192" duration="285000" />
+      <workItem from="1632556307778" duration="2652000" />
+      <workItem from="1632564659314" duration="6573000" />
+      <workItem from="1632637864360" duration="5351000" />
+      <workItem from="1632647762302" duration="5327000" />
+      <workItem from="1632653228614" duration="38000" />
+      <workItem from="1632653311356" duration="40000" />
+      <workItem from="1632653366879" duration="4351000" />
+      <workItem from="1632725166300" duration="4179000" />
+      <workItem from="1632734032492" duration="8181000" />
+      <workItem from="1632742311615" duration="1716000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1632396686253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632396686253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1632396811374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632396811374</updated>
+    </task>
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1632397259461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632397259461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master commit">
+      <created>1632397491294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632397491294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hot-fix commit">
+      <created>1632397525107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632397525107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="push commit">
+      <created>1632444317130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632444317130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitee commit">
+      <created>1632557642470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632557642470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new commit">
+      <created>1632566538362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632566538362</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit aging">
+      <created>1632566607735</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632566607735</updated>
+    </task>
+    <task id="LOCAL-00010" summary="one commit">
+      <created>1632571365385</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632571365385</updated>
+    </task>
+    <task id="LOCAL-00011" summary="one commit">
+      <created>1632743343227</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632743343227</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit" />
+    <MESSAGE value="master commit" />
+    <MESSAGE value="hot-fix commit" />
+    <MESSAGE value="push commit" />
+    <MESSAGE value="gitee commit" />
+    <MESSAGE value="new commit" />
+    <MESSAGE value="commit aging" />
+    <MESSAGE value="one commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="one commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="735" y="83" key="#Project_Structure" timestamp="1632642214439">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="735" y="83" key="#Project_Structure/0.0.1549.840@0.0.1549.840" timestamp="1632642214439" />
+    <state x="230" y="76" width="1089" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632742784480">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="230" y="76" width="1089" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.840@0.0.1549.840" timestamp="1632742784480" />
+    <state x="967" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1632737437243">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="967" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1549.840@0.0.1549.840" timestamp="1632737437243" />
+    <state x="236" y="0" key="CommitChangelistDialog2" timestamp="1632743341923">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="236" y="0" key="CommitChangelistDialog2/0.0.1549.840@0.0.1549.840" timestamp="1632743341923" />
+    <state x="839" y="179" key="FileChooserDialogImpl" timestamp="1632742504665">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="839" y="179" key="FileChooserDialogImpl/0.0.1549.840@0.0.1549.840" timestamp="1632742504665" />
+    <state x="1013" y="264" width="261" height="217" key="Github.ShareDialog" timestamp="1632443744169">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="1013" y="264" width="261" height="217" key="Github.ShareDialog/0.0.1549.840@0.0.1549.840" timestamp="1632443744169" />
+    <state width="1033" height="247" key="GridCell.Tab.0.bottom" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.0.bottom/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.0.center" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.0.center/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.0.left" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.0.left/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.0.right" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.0.right/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.1.bottom" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.1.bottom/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.1.center" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.1.center/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.1.left" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.1.left/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.1.right" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.1.right/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.2.bottom" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.2.bottom/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.2.center" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.2.center/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.2.left" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.2.left/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state width="1033" height="247" key="GridCell.Tab.2.right" timestamp="1632744006022">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1033" height="247" key="GridCell.Tab.2.right/0.0.1549.840@0.0.1549.840" timestamp="1632744006022" />
+    <state x="120" y="115" key="MergeDialog" timestamp="1632638208100">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="120" y="115" key="MergeDialog/0.0.1549.840@0.0.1549.840" timestamp="1632638208100" />
+    <state x="437" y="273" key="MultipleFileMergeDialog" timestamp="1632638208116">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="437" y="273" key="MultipleFileMergeDialog/0.0.1549.840@0.0.1549.840" timestamp="1632638208116" />
+    <state x="448" y="118" key="NewModule_or_Project.wizard" timestamp="1632742516235">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="448" y="118" key="NewModule_or_Project.wizard/0.0.1549.840@0.0.1549.840" timestamp="1632742516235" />
+    <state x="264" y="0" key="SettingsEditor" timestamp="1632742523518">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="264" y="0" key="SettingsEditor/0.0.1549.840@0.0.1549.840" timestamp="1632742523518" />
+    <state x="497" y="162" width="567" height="524" key="StructurePopup" timestamp="1632729116956">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="497" y="162" width="567" height="524" key="StructurePopup/0.0.1549.840@0.0.1549.840" timestamp="1632729116956" />
+    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2" timestamp="1632743420042">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="323" y="0" width="787" height="840" key="Vcs.Push.Dialog.v2/0.0.1549.840@0.0.1549.840" timestamp="1632743420042" />
+    <state x="551" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1632638175287">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="551" y="133" key="git4idea.branch.GitSmartOperationDialog/0.0.1549.840@0.0.1549.840" timestamp="1632638175287" />
+    <state x="498" y="212" key="git4idea.merge.GitPullDialog" timestamp="1632742361237">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="498" y="212" key="git4idea.merge.GitPullDialog/0.0.1549.840@0.0.1549.840" timestamp="1632742361237" />
+    <state x="179" y="116" key="new project wizard" timestamp="1632742471906">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="179" y="116" key="new project wizard/0.0.1549.840@0.0.1549.840" timestamp="1632742471906" />
+    <state x="437" y="161" width="672" height="678" key="search.everywhere.popup" timestamp="1632737475607">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="437" y="161" width="672" height="678" key="search.everywhere.popup/0.0.1549.840@0.0.1549.840" timestamp="1632737475607" />
+  </component>
+</project>

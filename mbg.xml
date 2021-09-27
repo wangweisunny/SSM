@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--MyBatis3 豪华版
+    MyBatis3Simple：简约版-->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--下面的配置的就算创建的时候不要注解-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!--数据库链接-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ssm_crud"
+                        userId="root"
+                        password="1218">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!--生成JavaBean
+        targetPackage：问你生成的bean类放到哪里
+        targetProject:问你保存到哪个工程下-->
+        <javaModelGenerator targetPackage="com.wangwei.crud.bean"
+                            targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--sql映射文件的生成器-->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject=".\src\main\resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!--dao接口生成器-->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.wangwei.crud.dao"
+                             targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!--指定生成哪个数据表-->
+        <table tableName="tbl_emp" domainObjectName="Employee" > </table>
+        <table tableName="tbl_dept" domainObjectName="Department" > </table>
+
+    </context>
+</generatorConfiguration>
