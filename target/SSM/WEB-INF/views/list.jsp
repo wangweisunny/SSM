@@ -14,9 +14,9 @@
     <%
         pageContext.setAttribute("path", request.getContextPath());
     %>
-    <script type="text/javascript" src="${path}/static/js/jquery-1.7.2.js"></script>
-    <link href="${path}/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <script src="${path}/static/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="${path }/static/js/jquery-1.12.4.min.js"></script>
+    <link href="${path}/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="${path}/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 <%--搭建页面系统--%>
